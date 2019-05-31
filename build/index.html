@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>JavaScript - osnove jQuery</title>
+    <style>
+        .text-danger {
+            color:darkred;
+        }
+    </style>
+</head>
+
+<body>
+    <form id="loginForm" action="javascript:;" data-parsley-validate="true">
+        <p> 
+            <label>User name:</label> 
+            <input type="text" name="username" required>
+        </p>
+        <p> 
+            <label>Password:</label> 
+            <input type="password" name="password" required minlength="3">
+        </p>
+        <p>
+             <button>Login</button>
+        </p>
+    </form>
+    </form>
+    <script src="/assets/js/bundle.min.js"></script>
+    <script>
+        $(document).ready(function () {
+            App.init({
+                loginForm: '#loginForm'
+            });
+        });
+
+    </script>
+</body>
+
+</html>
