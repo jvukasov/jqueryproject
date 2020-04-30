@@ -25,7 +25,7 @@
     "gulp-newer": "^1.4.0",
     "gulp-rename": "^1.4.0",
     "gulp-terser": "^1.2.0",
-    "jquery": "^3.4.1",
+    "jquery": "^3.5.0",
     "parsleyjs": "^2.9.1"
   }
 }
